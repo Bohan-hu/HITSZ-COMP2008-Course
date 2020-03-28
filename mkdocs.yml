@@ -1,7 +1,7 @@
-site_name: 计算机组成原理实验（2020春季） | 哈尔滨工业大学（深圳）
+site_name: 计算机组成原理实验（2020春季） | 哈工大（深圳）
 copyright: 'Copyright &copy; 2019 - 2020 哈尔滨工业大学（深圳）'
-repo_name: 'comp2008/comp2008'
-repo_url: 'https://gitee.com/comp2008/comp2008'
+repo_name: 'HITSZ-COMP2008-Course'
+repo_url: 'https://github.com/Bohan-hu/HITSZ-COMP2008-Course'
 
 theme: 
   name: material
