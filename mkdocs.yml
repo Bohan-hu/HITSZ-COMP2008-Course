@@ -10,6 +10,10 @@ theme:
     tabs: true
   logo:
     icon: 'developer_board'
+  theme:
+    palette:
+      primary: 'Green'
+      accent: 'Green'
 markdown_extensions:
   - admonition
 nav:
