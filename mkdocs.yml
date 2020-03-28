@@ -1,0 +1,43 @@
+site_name: 计算机组成原理实验（2020春季） | 哈尔滨工业大学（深圳）
+copyright: 'Copyright &copy; 2019 - 2020 哈尔滨工业大学（深圳）'
+repo_name: 'comp2008/comp2008'
+repo_url: 'https://gitee.com/comp2008/comp2008'
+
+theme: 
+  name: material
+  language: 'zh'
+  feature:
+    tabs: true
+  logo:
+    icon: 'developer_board'
+markdown_extensions:
+  - admonition
+nav:
+  - 实验须知: index.md
+  - 直接相联Cache设计: 
+    - 实验概述: lab1/part1.md
+    - 实验原理: lab1/part2.md
+    - 实验准备: lab1/part3.md
+    - 实现步骤: lab1/part4.md
+    - 提交文档: lab1/part5.md
+    - 附录1 IP核使用步骤: lab1/appendix1.md
+    - 附录2 Driver模块设计说明: lab1/appendix2.md
+  - 总线判优控制:
+    - 实验原理: lab2/unfinished.md
+  - 运算器设计:
+    - 实验原理: lab3/unfinished.md
+  - 微指令控制器设计:
+    - 实验原理: lab4/unfinished.md
+  - Verilog基本语法: 
+    - 初学Verilog的几点提醒: verilog/part0.md
+    - 模块的基本结构: verilog/part1.md
+    - 标识符和数据类型: verilog/part2.md
+    - 运算符及表达式: verilog/part3.md
+    - 逻辑门的描述: verilog/part4.md
+    - 赋值语句和块语句: verilog/part5.md
+    - 条件语句和循环语句: verilog/part6.md
+    - 模块的调用: verilog/part7.md
+    - 模块的测试: verilog/module_test.md
+    - 4位全加器设计实例: verilog/part8.md
+  - Verilog代码规范: 
+    - 基本规范: codingstyle.md
