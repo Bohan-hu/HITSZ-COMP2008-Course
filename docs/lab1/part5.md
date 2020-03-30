@@ -4,4 +4,6 @@
 
 ![image-20200330153253405](part5.assets/image-20200330153253405.png)
 
-- `Cache.v`文件和创建的IP核文件（blk_mem_gen_0.xci）
+- `cache.v`文件（位于`Lab1_Cache.srcs\sources_1\new\cache.v`）
+- 创建的IP核文件（位于`Lab1_Cache.srcs\sources_1\ip\blk_mem_gen_0\blk_mem_gen_0.xci`）
+

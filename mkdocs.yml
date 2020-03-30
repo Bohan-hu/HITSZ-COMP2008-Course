@@ -17,6 +17,7 @@ markdown_extensions:
   - admonition
 nav:
   - 实验须知: index.md
+  - 实验提交说明: ojguide.md
   - 直接相联Cache设计: 
     - 实验概述: lab1/part1.md
     - 实验原理: lab1/part2.md
