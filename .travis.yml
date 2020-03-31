@@ -7,6 +7,8 @@ install:
   - pip install mkdocs mkdocs-material
 
 script:
+  - git clone https://gitee.com/comp2008/comp2008.git
+  - mv comp2008 site
   - mkdocs build
   - cd site
   - git add * 
