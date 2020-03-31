@@ -1,0 +1,18 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install mkdocs mkdocs-material
+
+script:
+  - mkdocs build
+  - cd site
+  - git add * 
+  - git commit -m "site updated by Travis CI"
+  - git push 
+
+branches:
+  only:
+    - master
