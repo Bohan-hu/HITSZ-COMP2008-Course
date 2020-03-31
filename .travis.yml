@@ -10,10 +10,12 @@ script:
   - git clone https://gitee.com/comp2008/comp2008.git
   - mv comp2008 site
   - mkdocs build
+  - git config user.name "comp2008"
+  - git config user.email "robert1999@qq.com"
   - cd site
   - git add * 
   - git commit -m "site updated by Travis CI"
-  - git push 
+  - git push https://${giteeusername}:${giteepwd}@gitee.com/comp2008/comp2008.git master
 
 branches:
   only:
