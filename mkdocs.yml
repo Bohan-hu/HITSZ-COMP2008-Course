@@ -20,6 +20,7 @@ nav:
   - 实验提交说明: ojguide.md
   - 直接相联Cache设计: 
     - 实验概述: lab1/part1.md
+    - 编码规范: lab1/codingstyle.md
     - 实验原理: lab1/part2.md
     - 实验准备: lab1/part3.md
     - 实现步骤: lab1/part4.md
