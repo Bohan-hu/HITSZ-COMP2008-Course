@@ -11,8 +11,8 @@ theme:
   logo:
     icon: 'developer_board'
   palette:
-    primary: 'Blue'
-    accent: 'Blue'
+    primary: 'Grey'
+    # accent: 'Blue'
 markdown_extensions:
   - admonition
 nav:
