@@ -46,3 +46,5 @@ nav:
     - 4位全加器设计实例: verilog/part8.md
   - Verilog代码规范: 
     - 基本规范: codingstyle.md
+  - VSCode编写Verilog使用指南: 
+    - 使用指南: vscodeguide.md
