@@ -28,7 +28,12 @@ nav:
     - 附录1 IP核使用步骤: lab1/appendix1.md
     - 附录2 Driver模块设计说明: lab1/appendix2.md
   - 总线判优控制:
-    - 实验原理: lab2/unfinished.md
+    - 实验概述: lab2/part1.md
+    - 实验原理: lab2/part2.md
+    - 补充知识: lab2/part3.md
+    - 实验步骤: lab2/part4.md
+    - 测试说明: lab2/part5.md
+    - 提交文档: lab2/part6.md
   - 运算器设计:
     - 实验原理: lab3/unfinished.md
   - 微指令控制器设计:
