@@ -4,6 +4,16 @@
 
 [点击下载选做题B代码框架](https://pan.baidu.com/s/19O0yyi1r3HT4VopEo2mhSA)  **提取码: 3gge**
 
+### 勘误说明
+
+请将“基础代码框架”中的仿真模块`top.v`中第67-69行替换成如下：
+
+```
+$display("输入：%d, %d", $signed(x), $signed(y));
+$display("输出：%d", $signed(z));
+$display("正确答案：%d", $signed(z_out));
+```
+
 ## 一、实验目的
 
 理解 Booth 乘法器的原理，掌握 Booth 乘法器的设计方法。
