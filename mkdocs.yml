@@ -3,18 +3,45 @@ copyright: 'Copyright &copy; 2019 - 2020 哈尔滨工业大学（深圳）'
 repo_name: 'HITSZ-COMP2008-Course'
 repo_url: 'https://github.com/Bohan-hu/HITSZ-COMP2008-Course'
 
-theme: 
-  name: material
+markdown_extensions:
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - admonition
+  - mdx_math:
+      enable_dollar_delimiter: True
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  # - mathjaxhelper.js
+
+
+theme:
   language: 'zh'
-  feature:
-    tabs: true
-  logo:
-    icon: 'developer_board'
+  name: material
+  features:
+    - tabs
+  icon:
+    logo: fontawesome/solid/microchip
+    repo: fontawesome/brands/git-alt
+    # favicon: fontawesome/solid/microchip
   palette:
     primary: 'Blue'
     accent: 'Blue'
-markdown_extensions:
-  - admonition
 nav:
   - 实验须知: index.md
   - 实验提交说明: ojguide.md
@@ -34,9 +61,12 @@ nav:
     - 实验步骤: lab2/part4.md
     - 测试说明: lab2/part5.md
     - 提交文档: lab2/part6.md
-  - 运算器设计:
-    - 实验原理: lab3/unfinished.md
-  - 微指令控制器设计:
+  - Booth乘法器:
+    - 实验概述及原理: lab3/part1.md
+    - 实验步骤及提交方式: lab3/part2.md
+    - 选做题A 改进的 Booth 算法: lab3/appendixA.md
+    - 选做题B 基于冗余符号数的 4 位 Booth 算法: lab3/appendixB.md
+  - 微指令控制器:
     - 实验原理: lab4/unfinished.md
   - Verilog基本语法: 
     - 初学Verilog的几点提醒: verilog/part0.md
