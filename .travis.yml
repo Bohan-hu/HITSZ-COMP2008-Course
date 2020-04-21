@@ -4,7 +4,7 @@ python:
   - "3.6"
 
 install:
-  - pip install mkdocs mkdocs-material
+  - pip install mkdocs mkdocs-material python-markdown-math
 
 script:
   - git clone https://gitee.com/comp2008/comp2008.git
