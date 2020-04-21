@@ -61,6 +61,7 @@ nav:
     - 实验步骤: lab2/part4.md
     - 测试说明: lab2/part5.md
     - 提交文档: lab2/part6.md
+    - 附加题 AXI总线: lab2/AXI.md
   - Booth乘法器:
     - 实验概述及原理: lab3/part1.md
     - 实验步骤及提交方式: lab3/part2.md

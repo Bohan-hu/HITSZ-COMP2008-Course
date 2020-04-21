@@ -6,13 +6,24 @@
 
 ### 勘误说明
 
-请将“基础代码框架”中的仿真模块`top.v`中第67-69行替换成如下：
+- 请将“基础代码框架”中的仿真模块`top.v`中第67-69行替换成如下：
 
 ```
 $display("输入：%d, %d", $signed(x), $signed(y));
 $display("输出：%d", $signed(z));
 $display("正确答案：%d", $signed(z_out));
 ```
+
+- 附加题B：RBBE4项目 `sim_rba64` 的`sim_rba64_top.v`：删除47-48行多余的
+
+```
+y_pos_in<=64'b0;
+y_neg_in<=64'b0;
+```
+
+- 附加题B：RBBE4项目 `sim_booth4` 的`sim_booth4_top.v`：修改第38行`y_in <= 5'b10110`为`y_in <= 5'b11010`
+
+
 
 ## 一、实验目的
 
