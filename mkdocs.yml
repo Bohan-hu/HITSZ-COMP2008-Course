@@ -67,7 +67,7 @@ nav:
     - 实验步骤及提交方式: lab3/part2.md
     - 选做题A 改进的 Booth 算法: lab3/appendixA.md
     - 选做题B 基于冗余符号数的 4 位 Booth 算法: lab3/appendixB.md
-  - 微指令控制器:
+  - 微指令控制器与简易CPU实现:
     - 实验原理: lab4/unfinished.md
   - Verilog基本语法: 
     - 初学Verilog的几点提醒: verilog/part0.md
