@@ -160,7 +160,7 @@ END:
 
 ## 6.3 测试平台工具
 
-由于在线测试平台采用的是`Icarus Verilog`仿真器，其对`Verilog`的语法要求更加严格，不规范的电路描述会造成与`vivado`仿真器结果不一致。若提交后，结果与自测不一致，请自行安装`Icarus Verilog`和`GTKWave`进行调试，关于`Icarus Verilog`的使用，请参照https://www.cnblogs.com/lazypigwhy/p/10523712.html。
+由于在线测试平台采用的是`Icarus Verilog`仿真器，其对`Verilog`的语法要求更加严格，不规范的电路描述会造成与`vivado`仿真器结果不一致。若提交后，结果与自测不一致，请自行安装`Icarus Verilog`和`GTKWave`进行调试，关于`Icarus Verilog`的使用，请参照 [本链接](https://www.cnblogs.com/lazypigwhy/p/10523712.html)。
 
 
 
