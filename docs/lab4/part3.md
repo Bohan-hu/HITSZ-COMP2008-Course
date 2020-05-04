@@ -35,7 +35,7 @@
 
 
 
-正如每个厂家都会定义一套自己的指令集，如Intel和AMD的x86-64，arm的ARM，IBM的Power，我们将这次实现的CPU支持的指令集称为 **awsI** （  **a** dvanced  **w** asted  **s** imple  **I** nstruction set）， **aswI** 指令集包括整数移动指令、访存指令、条件跳转指令、无条件跳转指令、算术逻辑指令：
+正如每个厂家都会定义一套自己的指令集，如Intel和AMD的x86-64，arm的ARM，IBM的Power，我们将这次实现的CPU支持的指令集称为 **awsI** （  **a** dvanced  **w** asted  **s** imple  **I** nstruction set）， **awsI** 指令集包括整数移动指令、访存指令、条件跳转指令、无条件跳转指令、算术逻辑指令：
 
 | 指令编码（不定长指令） | 指令       | 功能                    |
 | -------------- | ---------- | ----------------------- |
@@ -46,8 +46,8 @@
 | 01010000       | ADD        | ACC  ←  ACC + R         |
 | 01100000       | AND        | ACC  ←  ACC and R       |
 | 01110000 [IMM] | JUMP IMM   | PC ← IMM                |
-| 10000000 [IMM] | JUMPZ IMM  | if (ACC != 0) then PC ← IMM |
-| 10010000 [IMM] | JUMPNZ IMM  | if (ACC == 0) then PC ← IMM |
+| 10000000 [IMM] | JUMPZ IMM  | if (ACC == 0) then PC ← IMM |
+| 10010000 [IMM] | JUMPNZ IMM  | if (ACC != 0) then PC ← IMM |
 | 10100000 [IMM] | LOADR IMM  | R ← IMM |
 
 - 指令为 **不定长指令** ，其中，指令的第一个字节的高4位编码为操作码，可由操作码 **唯一** 识别出指令；指令第一个字节低4位保留，默认全部为0.~~（暗号：王）~~。
