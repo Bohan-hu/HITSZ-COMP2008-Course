@@ -1,4 +1,4 @@
-[点击下载实验大礼包，不用998，只要996！](https://pan.baidu.com/s/1h46gJAH-8Z6-sqrvJeYGcw) 提取码: cwd4
+[点击下载实验大礼包，不用998，只要996！](https://pan.baidu.com/s/1P8MtaRmokTxAP_OzI8nnRg) 提取码: xqi9
 
 [Logisim运行环境 JDK1.8官网下载链接（速度较慢）](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html#license-lightbox)
 

@@ -264,10 +264,12 @@ ALU仅有2个功能，由ALUSel决定。
 
 同时，将自己编写的微代码复制到记事本中，并保存在项目`Lab4_Microcode.sim\sim_1\behav\xsim`文件夹，在`initial`语句中，初始化控存。
 
+控存有256行，每行32位，**其中高2位用作保留**！
+
 **此处一定注意：由于本次实验对存储器采用仿真模型（不要求上板），所以使用到了`initial`语句，在实际设计中，`intial`大多无法综合成电路！**
 
 ```
-reg [? : ?] urom[? : ?];
+reg [31 : 0] urom[255 : 0];
 initial begin
 	$readmemb("microcode.txt", urom);
 end
