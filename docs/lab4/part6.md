@@ -24,7 +24,7 @@ LOAD 0x02
 
 ### 6.1.2 store
 
-主存`0x08`位置数据为`0xff`，`0x0f`数据为`0x00`.
+主存`0x08`位置数据为`0xff`，`0x0f`数据为`xx`（无数据）.
 
 ```
 LOAD 0x08
@@ -80,9 +80,9 @@ ADD
 ```
 LOADR 1
 ADD
-LOADR 0
+LOADR 2
 AND
-JUMPZ 0x09
+JUMPZ 0x0b
 LOADR 3
 ADD
 LOADR 4
@@ -96,7 +96,7 @@ LOADR 1
 ADD
 LOADR 2
 ADD
-JUMPNZ 0x09
+JUMPNZ 0x0b
 LOADR 3
 ADD
 LOADR 4
@@ -110,7 +110,7 @@ LOADR 1
 ADD
 LOADR 0
 AND
-JUMPZ 0x09
+JUMPZ 0x0b
 LOADR 3
 ADD
 LOADR 4
