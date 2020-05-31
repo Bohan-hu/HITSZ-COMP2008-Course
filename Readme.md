@@ -3,5 +3,5 @@
 ![](https://api.travis-ci.org/Bohan-hu/HITSZ-COMP2008-Course.svg?branch=master)
 
 
-- 课程主页及指导书地址：[https://comp2008.gitee.io](https://comp2008.gitee.io)
+- 课程主页及指导书地址：[https://comp2008.gitee.io/archived](https://comp2008.gitee.io/archived)
 
